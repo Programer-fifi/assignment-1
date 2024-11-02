@@ -1,0 +1,11 @@
+/* components/Footer.module.css */
+.footer {
+    background-color: rgba(182, 208, 226, 0.2);
+    color: white;
+    text-align: bottom;
+    padding: 30px;
+}
+.para {
+    text-align : center;
+}
+

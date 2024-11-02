@@ -1,0 +1,45 @@
+.header {
+    background-color: none;
+    color: white;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    margin: 0 15px;
+  }
+  
+  .navLink {
+    color: white;  
+    text-decoration: none;
+    transition: color 0.3s; 
+  }
+  
+  .navLink:hover {
+    color: #ff6347;  
+    text-decoration: underline; 
+  }
+  .logo {
+    margin-right: 20px; 
+    font-size: 2rem; 
+  }  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }  
+  .title {
+    color: white ;
+    background-color :none;
+    text-align : center;
+    padding : 0px;
+}
+  
