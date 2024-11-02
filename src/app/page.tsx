@@ -1,23 +1,24 @@
-// pages/index.tsx
-import React from "react";
-
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Hero from '../components/Hero';
-import styles from "./style/HomePage.module.css";
+import React from 'react'
+import Link from 'next/link'
 
 const HomePage = () => {
   return (
-    <div className={styles.container}>
-      <Header />
+    <div>   
+      <h1>
+         Home Page
+      </h1>
 
-      
+      <ul>
+       <li><Link href="/">Home</Link></li>
+       <li><Link href="/about">About</Link></li>
+       <li><Link href="/contact">Contact</Link></li>
+       <li><Link href="/service">Service</Link></li>
 
-      <h1 className={styles.title}>Fatima Gohar</h1> 
-      <Hero />
-      <Footer /> 
+       </ul>
+
     </div>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
+//div is a container that holds all the other elements 
